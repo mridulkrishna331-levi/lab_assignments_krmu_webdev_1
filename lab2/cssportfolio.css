@@ -1,0 +1,139 @@
+ 
+    /* Reset and base styles */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, sans-serif;
+    }
+
+    body {
+      background-color: #ccccd6;
+      color: #353232;
+      line-height: 1.6;
+    }
+
+    /* Header */
+    header {
+      background-color: #278f99;
+      color: rgb(187, 176, 176);
+      text-align: center;
+      padding: 20px 0;
+    }
+
+    header h1 {
+      margin-bottom: 10px;
+    }
+
+    nav a {
+      color: rgb(236, 229, 229);
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    section {
+      background: rgb(216, 208, 208);
+      margin: 20px auto;
+      padding: 20px;
+      max-width: 700px;
+      border-radius: 10px;
+      box-shadow: 0 2px 5px rgba(47, 5, 5, 0.1);
+    }
+
+    h2 {
+      text-align: center;
+      margin-bottom: 15px;
+      color: #2a755e;
+    }
+
+    /* About Me */
+    .about img {
+      display: block;
+      margin: 0 auto 15px;
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      background-color: #d9c6c6;
+    }
+
+    .about p {
+      text-align: center;
+      font-size: 1rem;
+    }
+
+    /* Skills Table */
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 10px;
+    }
+
+    th, td {
+      border: 1px solid #cda9a9;
+      padding: 10px;
+      text-align: center;
+    }
+
+    th {
+      background-color: #193c9e;
+      color: rgb(237, 218, 218);
+    }
+
+    /* Projects */
+    .project {
+      background: #987987;
+      padding: 15px;
+      border-radius: 8px;
+      text-align: center;
+      margin-bottom: 10px;
+      border: 1px solid #2d4332;
+    }
+
+    /* Contact Form */
+    form {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+
+    input, textarea {
+      padding: 10px;
+      border: 1px solid #a99b9b;
+      border-radius: 5px;
+    }
+
+    button {
+      background-color: #156ee3;
+      color: rgb(221, 144, 144);
+      padding: 10px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background-color: #113363;
+    }
+
+    /* Back to top */
+    .back-to-top {
+      display: block;
+      text-align: center;
+      margin: 20px auto;
+      text-decoration: none;
+      background-color: #154685;
+      color: white;
+      padding: 10px 20px;
+      border-radius: 5px;
+      width: fit-content;
+    }
+
+    .back-to-top:hover {
+      background-color: #09182d;
+    }
+  
